@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, HostListener, OnInit, ViewChild } from "@angular/core";
 @Component({
   selector: 'SpreadCanvas',
-  templateUrl: '<canvas style="display: block;position: fixed;top: 0;left: 0;" id="walkercanvas" #canvas></canvas>',
+  template: `<canvas style="display: block;position: fixed;top: 0;left: 0;" id="walkercanvas" #canvas></canvas>`,
   styleUrls: ['./SpreadCanvas.css']
 })
 
